@@ -1,0 +1,47 @@
+# UE5 Build outputs
+Binaries/
+Build/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+*.sln
+*.vcxproj*
+.vscode/
+
+# Android build files
+/Android/
+*.apk
+*.aab
+*.obb
+/Platforms/Android/Build/
+
+# iOS build files  
+/IOS/
+*.ipa
+/Platforms/IOS/Build/
+
+# Package outputs
+/WindowsNoEditor/
+/LinuxNoEditor/
+/MacNoEditor/
+/Android_*
+/IOS_*
+
+# Logs and temp files
+*.log
+*.tmp
+/Logs/
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Plugin binaries
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Starter Content (optional - removes Epic's starter content)
+Content/StarterContent/
